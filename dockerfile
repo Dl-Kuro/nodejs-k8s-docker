@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 3000
 
 # Lancement de l'application
-CMD ["node", "server.js"]
+CMD ["node", "src/server.js"]
