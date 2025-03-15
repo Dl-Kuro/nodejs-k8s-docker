@@ -15,7 +15,7 @@ services:
       - pgdata:/var/lib/postgresql/data
 
   web:
-    build: .
+    build: ..
     container_name: node_app
     restart: no
     depends_on:
