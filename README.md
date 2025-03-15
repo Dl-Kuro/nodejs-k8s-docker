@@ -1,4 +1,3 @@
-Voici le fichier **`README.md`** basé sur ton guide d’installation et de déploiement, avec **`curl.exe`** à la place de `curl`. Tu peux le copier directement dans ton dépôt GitHub.  
 
 ---
 
