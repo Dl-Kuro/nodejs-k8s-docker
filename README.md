@@ -66,7 +66,7 @@ kubectl get pods
 Récupérer l'URL du service :
 
 ```sh
-minikube service node-app-service --url
+minikube service node-service -n <nom_namespace>
 ```
 
 Copiez cette URL et ouvrez-la dans un navigateur.
@@ -76,7 +76,7 @@ Copiez cette URL et ouvrez-la dans un navigateur.
 Si vous voulez rediriger un port local vers le service :
 
 ```sh
-kubectl port-forward service/node-app-service 3000:3000
+kubectl port-forward service/node-service 3000:3000
 ```
 
 Puis testez dans un navigateur :
